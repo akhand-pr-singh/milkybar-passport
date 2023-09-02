@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.passport {
+    top: 14px;
+    left: 17px;
+}
+
+.download {
+    left: 0;
+    bottom: 70px;
+}
+
+.fallback {
+    left: 95px;
+    top: 231px;
+}
+
+.landing-page{
+    height:100vh;
+    width:100vw;
+    background-color:#FAEA18;
+}
+
+.image-section{
+    background-color: #FFFFFF;
+    position:relative;
+    transform: rotate(12deg);
+    left: 100px;
+    bottom: 366px;
+    width: 107px;
+    height: 101px;
+}
+
+.image-section img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.content-section {
+    background-color: #FFFFFF;
+    transform: rotate(12deg);
+    height: 106px;
+    width: 133px;
+    left: 213px;
+    bottom: 331px;
+}
+
+.capture-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menuc {
+    position: relative;
+    left: 281px;
+}
+
+.capture {
+    background-color: white;
+    position: absolute;
+    left: 39px;
+    top: 78px;
+    width: 321px;
+    height: 483px;
+    border-radius: 23px;
+}
+
+.passportc {
+    top: 14px;
+    left: 17px;
+    height: 471px;
+    width: 330px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.buttoncap {
+    height: 32px;
+    position: relative;
+    left: 147px;
+    top: -40px;
+    background: initial;
+}
+
+.buttonclose {
+    height: 29px;
+    left: 259px;
+    bottom: 243px;
+    position: relative;
+    background: initial;
+}
+
+.name {
+    position: relative;
+    bottom: -30px;
+    left: 49px;
+    height: 42px;
+    width: 231px;
+    text-align: center;
+    background-color: silver;
+    color: grey;
+    font-style: bold;
+}
+
+.save {
+    position: relative;
+    bottom: -68px;
+    left: 75px;
+}
