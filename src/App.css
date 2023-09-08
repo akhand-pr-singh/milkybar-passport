@@ -3,3 +3,11 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.App{
+  min-height:706px;
+  height:100%;
+  min-width:380px;
+  width: 100%;
+  background-color: #FAEA18;
+}

@@ -7,7 +7,7 @@ function NavBar() {
         <>
             <header>
                 <div id='logo'>
-                    <img style={{ background: 'initial'}} src="./images/brand.png" alt="milkybar" />
+                    <img src="./images/brand.png" alt="milkybar" />
                 </div>
                 <nav id='menu'>
                     <ul>

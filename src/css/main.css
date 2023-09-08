@@ -19,15 +19,15 @@
     top: 231px;
 }
 
-.landing-page{
-    height:100vh;
-    width:100vw;
-    background-color:#FAEA18;
+.landing-page {
+    height: 100vh;
+    width: 100vw;
+    
 }
 
-.image-section{
+.image-section {
     background-color: #FFFFFF;
-    position:relative;
+    position: relative;
     transform: rotate(12deg);
     left: 100px;
     bottom: 366px;
@@ -35,10 +35,10 @@
     height: 101px;
 }
 
-.image-section img{
-    width:100%;
-    max-width:100%;
-    height:auto;
+.image-section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .content-section {
@@ -119,4 +119,116 @@ video {
     position: relative;
     bottom: -68px;
     left: 75px;
+}
+
+
+
+/* PASSPORT CSS */
+
+.passport {
+    width: 345.9999828243401px;
+    height: 466.9999768178232px;
+    position: relative;
+    top: 16.69586181640625px;
+    left: 40px;
+    transform: rotate(-5.55deg);
+}
+
+.mypassport {
+    background-color: #0394C3;
+    width: 172.61150266192365px;
+    height: 245.67708131029232px;
+    position: relative;
+    border-radius: 5px 15px 15px 5px;
+    transform: rotate(-5.55deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.passport-inside {
+
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -160px;
+    left: 30px;
+    transform: rotate(14deg);
+}
+
+.passport-rectangle {
+    border: 1px solid green;
+    width: 296.3968171467737px;
+    height: 48.99999951700663px;
+    position: relative;
+    top: 0px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.passport-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 177.61124846009196px;
+    height: 296.04320727188957px;
+    position: relative;
+    top: -101px;
+    left: 59px;
+    transform: rotate(-90deg);
+    border-radius: 2px 25px 25px 2px;
+    background-image: linear-gradient(to left, white 85%, #929292);
+}
+
+.passport-top img {
+    width: 91px;
+    height: 119px;
+    left: 37px;
+    position: relative;
+    top: 5px;
+    transform: rotate(90deg);
+}
+
+.information {
+    top: 33px;
+    position: relative;
+    transform: rotate(90deg);
+    left: -12px;
+}
+
+.passport-bottom {
+    border: 1px solid grey;
+    width: 194.07320798652032px;
+    height: 295.75005542198465px;
+    position: relative;
+    left: 51px;
+    top: -261px;
+    transform: rotate(90deg);
+    border-radius: 2px 25px 25px 2px;
+    background-image: linear-gradient(to left, white 85%, #929292);
+}
+
+.continents-text {
+    left: -56px;
+    transform: rotate(271deg);
+    position: absolute;
+    top: 140px;
+}
+
+.continents {
+    position: relative;
+    top: 49px;
+    transform: rotate(-102deg);
+    left: -39px;
+}
+
+.passport-bottom-rectangle {
+    border: 1px solid brown;
+    width: 295.5339272418165px;
+    height: 48.999998623008px;
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
+    transform: rotate(180deg);
+    top: -13px;
 }

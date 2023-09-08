@@ -8,7 +8,7 @@ function Main() {
     const [capturedImage, setCapturedImage] = useState(null);
     const [visible, setVisible] = useState(false);
     const [show, setShow] = useState(false);
-    const [name, setName] = useState('');
+    const [name, setName] = useState('NAME');
     const [error, setError] = useState('');
 
     const capture = () => {
@@ -46,19 +46,36 @@ function Main() {
     return (
         <>
             <div className='main'>
+
                 <div className="landing-page">
                     <img className='position-absolute' src="./images/background.png" alt="" />
-                    <img className='position-relative passport' src="./images/passport-full.png" alt="" />
+                    <div className="passport">
+                        <div className="mypassport">
+                            <img src="./images/brand-logo.png" alt="logo" />
+                            <img src="./images/earth.png" alt="earth" />
+                            <img src="./images/passport.png" alt="text" />
+                        </div>
+                        <div className="passport-inside">
+                            <div className="passport-rectangle"></div>
+                            <div className="passport-top"><div className="profile">
+                                {!(show && capturedImage) ? <img src="./images/profile.png" onClick={handleFallbackClick} alt="profile" /> :
+                                    <img src={capturedImage} onClick={handleFallbackClick} alt="profile" />}
+                            </div>
+                                <div className="information">
+                                    <h6>Name</h6>
+                                    {!error ? (<h5 onClick={() => setVisible(true)}>{name}</h5>) : (<h5 onClick={() => setVisible(true)}>Invalid</h5>)}
+                                    <h6>I'M READY TO DISCOVER THE WORLD!</h6>
+                                </div></div>
+                            <div className="passport-bottom-rectangle"></div>
+                            <div className="passport-bottom">
+                                <h6 className="continents-text">Continents explored</h6>
+                                <img className='continents' src="./images/world-map.png" alt="continents" />
+                            </div>
+                        </div>
+                    </div>
                     <img className='position-absolute download' src="./images/download.png" alt="download" />
-                    <img className='position-absolute fallback' role='button' onClick={handleFallbackClick} src="./images/fallback-img.png" alt="fallback-image" />
-                    {(show) ? (<div><div className="image-section" onClick={handleFallbackClick}><img src={capturedImage} alt="" /></div>
-                        <div className="content-section position-absolute">
-                            <h6>Name</h6>
-                            {!error ? (<h5 onClick={() => setVisible(true)}>{name}</h5>) : (<h5 onClick={() => setVisible(true)}>Invalid</h5>)}
-                            <h6>I'm ready to discover the world!</h6>
-                        </div></div>) : <div></div>}
-
                 </div>
+
                 {visible ?
                     (<div className="capture-page">
                         <header>
@@ -69,7 +86,6 @@ function Main() {
                             </nav>
                         </header>
                         <img className='position-absolute' src="./images/background.png" alt="" />
-                        <img className='position-relative passportc' src="./images/passport-full.png" alt="" />
                         <div className="capture">
                             <div className="camera">
                                 {capturedImage ? (
@@ -91,9 +107,10 @@ function Main() {
                         </div>
                         <img className='position-absolute download' src="./images/download.png" alt="download" />
                     </div>) : (<div></div>)}
+
             </div >
         </>
     )
 }
 
-export default Main
+export default Main;
