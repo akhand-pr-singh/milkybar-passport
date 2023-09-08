@@ -107,7 +107,6 @@ function Main() {
                         </div>
                         <img className='position-absolute download' src="./images/download.png" alt="download" />
                     </div>) : (<div></div>)}
-
             </div >
         </>
     )

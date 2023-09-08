@@ -14,40 +14,9 @@
     bottom: 70px;
 }
 
-.fallback {
-    left: 95px;
-    top: 231px;
-}
-
 .landing-page {
     height: 100vh;
     width: 100vw;
-    
-}
-
-.image-section {
-    background-color: #FFFFFF;
-    position: relative;
-    transform: rotate(12deg);
-    left: 100px;
-    bottom: 366px;
-    width: 107px;
-    height: 101px;
-}
-
-.image-section img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-.content-section {
-    background-color: #FFFFFF;
-    transform: rotate(12deg);
-    height: 106px;
-    width: 133px;
-    left: 213px;
-    bottom: 331px;
 }
 
 .capture-page {
@@ -158,19 +127,21 @@ video {
 }
 
 .passport-rectangle {
-    border: 1px solid green;
+    background-color: white;
+    border: 1px solid grey;
     width: 296.3968171467737px;
     height: 48.99999951700663px;
     position: relative;
     top: 0px;
     border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px -2px 10px #3F3F3F;
 }
 
 .passport-top {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border: 1px solid grey;
     width: 177.61124846009196px;
     height: 296.04320727188957px;
     position: relative;
@@ -224,11 +195,13 @@ video {
 }
 
 .passport-bottom-rectangle {
-    border: 1px solid brown;
+    background-color: white;
+    border: 1px solid grey;
     width: 295.5339272418165px;
     height: 48.999998623008px;
     position: relative;
     border-radius: 25px 25px 0px 0px;
     transform: rotate(180deg);
     top: -13px;
+    box-shadow: 0px 2px 10px #3F3F3F;
 }
