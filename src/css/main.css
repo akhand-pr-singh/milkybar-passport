@@ -168,6 +168,15 @@ video {
     left: -12px;
 }
 
+.information h6 {
+    color:#021689;
+}
+
+.information p{
+    font-size: 12px;
+    color: #FAEA18;
+}
+
 .passport-bottom {
     border: 1px solid grey;
     width: 194.07320798652032px;
